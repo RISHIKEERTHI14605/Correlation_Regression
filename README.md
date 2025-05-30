@@ -1,32 +1,33 @@
-# Correlation and regression for data analysis
-# Aim : 
+# Single server with infinite capacity (M/M/1):(oo/FIFO)
+## Aim :
+To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 12 seconds, serivice time of lathe machine follows exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
-To analyse given data using coeffificient of correlation and regression line
-![image](https://user-images.githubusercontent.com/104613195/168224136-d6b64e64-7d3d-4775-9337-c8f96fe41f2d.png)
+## Software required :
+Visual components and Python
 
+## Theory:
+Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
-# Software required :  
+![image](1.png)
 
-Python
+This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
 
-# Theory:
+## Procedure :
 
-Correlation describes the strength of an association between two variables, and is completely symmetrical, the correlation between A and B is the same as the correlation between B and A. However, if the two variables are related it means that when one changes by a certain amount the other changes on an average by a certain amount.  
-
-If y represents the dependent variable and x the independent variable, this relationship is described as the regression of y on x. The relationship can be represented by a simple equation called the regression equation. The regression equation representing how much y changes with any given change of x can be used to construct a regression line on a scatter diagram, and in the simplest case this is assumed to be a straight line.
-
-# Procedure :
-
-![image](https://user-images.githubusercontent.com/104613195/168225866-ac8f6610-bdc3-4ac2-a24e-2b24ba08e189.png)
-
-# Program :
-
-![image](https://github.com/ramjan1729/Correlation_Regression/assets/103921593/9eb48cbf-8ca3-4cd9-8440-ff45fd98333e)
+![imAGE](2.png)
 
 
 
-# Output 
-![EXP 3 PQM](https://github.com/user-attachments/assets/c0376c11-b33d-4711-8ea5-28c8263adc9b)
+## Experiment:
+![21](https://github.com/user-attachments/assets/8f3e5bed-8d87-476c-b2f7-f150d3746888)
 
-# Result:
-analysing given data using coeffificient of correlation and regression line has been done successfully
+![22](https://github.com/user-attachments/assets/86bae920-2987-484f-b973-bf804cdb70bc)
+ 
+## Program
+![image](https://github.com/ramjan1729/Single-server-infinite-capacity---Markov-Model/assets/103921593/5f1fd58d-5929-4c51-89ea-4cef009e5bad)
+
+## Output :
+![23](https://github.com/user-attachments/assets/b0a6e635-c041-441c-b309-75b515e2362f)
+
+## Result :
+The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
